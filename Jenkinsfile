@@ -15,7 +15,7 @@ node {
                 sh "git config user.email ymhin11@gmail.com"
                 
                 // github user name
-                sh "git config user.name ymhin11"
+                sh "git config user.name Brian-yeon"
 
                 sh "cat deployment.yaml"
 
