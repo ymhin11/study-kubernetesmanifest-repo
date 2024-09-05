@@ -9,13 +9,13 @@ node {
         script {
             // withCredentials는 Jenkins Pipeline에서 사용되는 구문으로 credentials을 안전하게 처리
             // credentialsId는 Jenkins에서 생성한 github credential 값
-            withCredentials([usernamePassword(credentialsId: 'github-credential', passwordVariable: 'GIT_PASSWORD', usernameVariable: 'ymhin11')]) {
+            withCredentials([usernamePassword(credentialsId: 'github-credential', passwordVariable: 'GIT_PASSWORD', usernameVariable: 'Brian-yeon')]) {
                 
                 // github email
                 sh "git config user.email ymhin11@gmail.com"
                 
                 // github user name
-                sh "git config user.name ymhin11"
+                sh "git config user.name Brian-yeon"
 
                 sh "cat deployment.yaml"
 
