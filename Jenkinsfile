@@ -31,7 +31,7 @@ node {
                 
                 // kubernetesmanifest repo에 변경 사항 push
                 // kubernetesmanifest용 git repository 이름이 study-kubernetesmanifest_repo가 아닐 경우 하기 코드에서 수정
-                sh 'git push https://${GIT_USERNAME}:${GIT_PASSWORD}@github.com/Brian-yeon/study-kubernetesmanifest-repo.git'
+                sh 'git push https://${GIT_USERNAME}:${GIT_PASSWORD}@github.com/Brian-yeon/study-kubernetesmanifest-repo.git HEAD:main'
             }                
         }
     }
