@@ -15,7 +15,7 @@ spec:
         app: test-web
     spec:
       containers:
-      - image: 654654166929.dkr.ecr.ap-northeast-2.amazonaws.com/study-dockerimage-repo:latest
+      - image: 654654166929.dkr.ecr.ap-northeast-2.amazonaws.com/study-dockerimage-repo:28
         name: test-web
 ---
 apiVersion: v1
